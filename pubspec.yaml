@@ -1,0 +1,32 @@
+name: elevshopfirebase
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: '>=2.17.6 <3.0.0'
+
+dependencies:
+  cloud_firestore: ^4.4.3
+  cupertino_icons: ^1.0.2
+  firebase_auth: ^4.2.9
+  firebase_core: ^2.7.0
+  firebase_storage: ^11.0.14
+  flutter:
+    sdk: flutter
+  flutter_speed_dial: ^6.2.0
+  get: 4.6.5
+  google_nav_bar: ^5.0.6
+  image_picker: ^0.8.6+4
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+  get: ^4.6.5
+  get_cli: ^1.8.1
+
+flutter:
+  assets:
+    - assets/
+    - assets/images/
+  uses-material-design: true
